@@ -1,5 +1,6 @@
 ##
 目前这个项目包含2025Robocup无人机识别与快递运输赛的任务代码以及2024年电子设计大赛无人机赛道的相关代码。
+后续可能会补充25年和26年电子设计大赛无人机题的代码（取决于今年成绩了）
 ## 项目结构
 ```sh
 tutorial
@@ -20,8 +21,55 @@ tutorial
 ```
 
 # **引言**
-作者是一名大四学生，参加大学生无人机相关赛事已经有两年了，这两年的学习路程苦于没有总揽性的学习规划走了不少弯路，所以决定在打完所有比赛后出一个无人机的学习教程。旨在让感兴趣的同学能够更好地入门。
->作者学业繁忙，会在空闲时间慢慢更新该仓库
+感谢飞控组所有前辈做出的贡献，也希望飞控组越来越好
+
+这里附上前组长们总结的学习路线
+1.赵虚左老师ROS入门课程。看完话题通信服务通
+行就可以实现简单的ROS任务了，剩下的内容遇
+到实际问题在反过头来看。
+【【Autolabor初级教程】ROS机器人入门】
+https://www.bilibili.com/video/BV1Ci4y1L7ZZ/?
+share_source=copy_web&vd_source=e397b600
+513156b0a277ca7978233795
+2.机器人工匠阿杰的ROS入门课程，学习ROS传感
+器，导航的相关算法和仿真实现。
+【机器人操作系统 ROS 快速入门教程】
+https://www.bilibili.com/video/BV1BP4y1o7pw/?
+share_source=copy_web&vd_source=e397b600
+513156b0a277ca7978233795
+3.路径规划算法Ego-Planner的实机部署
+【【完结】从0制作自主空中机器人 | 开源 | 浙江
+大学Fast-Lab】
+https://www.bilibili.com/video/BV1WZ4y167me/?
+share_source=copy_web&vd_source=e397b600
+513156b0a277ca7978233795
+4.无人机仿真环境XTDrone搭建
+https://www.yuque.com/xtdrone/manual_cn/bas
+ic_config_13
+
+下面的内容也很推荐
+1.ROS无人机基础知识
+【【浙江大学】浙大博导带你从0制作无人机】
+https://www.bilibili.com/video/BV1cM4y1Z7Zs/?
+share_source=copy_web&vd_source=e397b600
+513156b0a277ca7978233795
+2.双系统安装（如有需要）
+【Windows 10 和 Ubuntu 双系统的安装和卸
+载】
+https://www.bilibili.com/video/BV1554y1n7zv/?
+share_source=copy_web&vd_source=e397b600
+513156b0a277ca7978233795
+
+视觉传统OpenCV没有必要专门学习，找几个项目复
+现一下，了解基本实现即可。保证能够在需要
+OpenCV时依靠AI实现功能。
+色块追踪项目
+https://github.com/1zlab/1ZLAB_Color_Block_Finder.
+git
+yolov5，这个需要通过实际的项目学习
+
+
+
 ## 基础知识
 ### Linux
 无人机的相关代码都是在Linux系统上实现的，所以Linux操作系统是机器人工程师的基本功。这一部分直接去B站找相关的教学视频粗略学习即可
